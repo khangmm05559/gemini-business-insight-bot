@@ -1,0 +1,11 @@
+[build]
+command = "" 
+publish = "."
+
+[functions]
+directory = "netlify/functions"
+included_files = [
+  "netlify/functions/data.json",
+  "netlify/functions/purchase_orders.json",
+  "netlify/functions/sales_orders.json"
+]
